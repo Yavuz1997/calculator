@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    width:100%;
+    height:100%;
+    background: #d84800;
+    box-shadow: inset 0 0 80px black;
+}
+
+body{
+    
+
+}
+
+
+#title{
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#calculator-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    height:500px;
+    width:400px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#display{
+    width: 360px;
+    height: 80px;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.calcButton{
+    height:40px;
+    width:80px;
+    margin: 20px 10px;
+    border-radius: 15px;
+
+}
