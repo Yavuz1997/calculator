@@ -94,7 +94,7 @@ function operate(operand) {
 
 function finishCalc(){
     if(nums.length != 0 && fullOperation.length == 2){
-        fullOperation.push(nums.join(" "));
+        fullOperation.push(nums.join(""));
         operation.textContent = fullOperation.join(" ");
         numOne = Number(fullOperation[0]);
         numTwo = Number(fullOperation[2]);
