@@ -20,6 +20,7 @@ buttons.forEach(button => {
             case "7":
             case "8":
             case "9":
+            case ".":
                 if(fullOperation.length == 0){
                     operation.textContent ="";
                 }
